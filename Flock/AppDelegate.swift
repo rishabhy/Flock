@@ -7,16 +7,42 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let kClientID = "ea6b21a095c64540bc38f6a436240f25"
+    let kCallbackURL = "flock-login://return-after-login"
+    let kTokenSwapURL = "http://localhost:1234/swap"
+    let kTokenRefreshServiceURL = "http://localhost:1234/refresh"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
+    }
+    
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        
+        if SPTAuth.defaultInstance().canHandle(url as URL!){
+            SPTAuth.defaultInstance().handleAuthCallback(withTriggeredAuthURL: url as URL!, callback: {error, session -> Void in
+                if error != nil {
+                    print("Authentication Error")
+                    return
+                }
+                let userDefaults = UserDefaults.standard
+                let sessionData = NSKeyedArchiver.archivedData(withRootObject: session!)
+                userDefaults.set(sessionData, forKey: "SpotifySession")
+                
+                userDefaults.synchronize()
+                
+                NotificationCenter.default.post(name: Notification.Name(rawValue: "loginSuccessful"), object: nil)
+            })
+        }
+        return false
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

@@ -14,6 +14,17 @@
 		3226CCA81EF07C5B009D6F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3226CCA61EF07C5B009D6F3B /* LaunchScreen.storyboard */; };
 		3226CCB31EF07C5B009D6F3B /* FlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226CCB21EF07C5B009D6F3B /* FlockTests.swift */; };
 		3226CCBE1EF07C5B009D6F3B /* FlockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3226CCBD1EF07C5B009D6F3B /* FlockUITests.swift */; };
+		32343A3D1EF07DE00005EC94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32343A3C1EF07DE00005EC94 /* GoogleService-Info.plist */; };
+		32343A3F1EF081720005EC94 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32343A3E1EF081720005EC94 /* SpotifyAudioPlayback.framework */; };
+		32343A411EF0817E0005EC94 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32343A401EF0817E0005EC94 /* SpotifyAuthentication.framework */; };
+		32343A431EF081870005EC94 /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32343A421EF081870005EC94 /* SpotifyMetadata.framework */; };
+		32343A451EF0821D0005EC94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32343A441EF0821D0005EC94 /* AVFoundation.framework */; };
+		32343A4C1EFC930F0005EC94 /* Search_ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32343A4B1EFC930E0005EC94 /* Search_ResultTableViewController.swift */; };
+		32343A4E1EFC93CB0005EC94 /* Search_ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32343A4D1EFC93CB0005EC94 /* Search_ResultTableViewCell.swift */; };
+		32343A501EFC98C00005EC94 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32343A4F1EFC98C00005EC94 /* PlayViewController.swift */; };
+		6E4147762325F416A79E0116 /* Pods_Flock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65ED7CA7B4F58C054EDD527 /* Pods_Flock.framework */; };
+		B102A42988ADEE4E1898950E /* Pods_FlockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F5D0681203A630773A56DF /* Pods_FlockUITests.framework */; };
+		C529AAA0DA6BE8BA197BB9B3 /* Pods_FlockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61C168C8047F92284212260 /* Pods_FlockTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15C091B0962996E46358DEB6 /* Pods-FlockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlockTests/Pods-FlockTests.release.xcconfig"; sourceTree = "<group>"; };
 		3226CC9A1EF07C5B009D6F3B /* Flock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3226CC9D1EF07C5B009D6F3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3226CC9F1EF07C5B009D6F3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,23 @@
 		3226CCB91EF07C5B009D6F3B /* FlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3226CCBD1EF07C5B009D6F3B /* FlockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockUITests.swift; sourceTree = "<group>"; };
 		3226CCBF1EF07C5B009D6F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32343A3C1EF07DE00005EC94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32343A3E1EF081720005EC94 /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyAudioPlayback.framework; path = "../ios-sdk-beta-25/SpotifyAudioPlayback.framework"; sourceTree = "<group>"; };
+		32343A401EF0817E0005EC94 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyAuthentication.framework; path = "../ios-sdk-beta-25/SpotifyAuthentication.framework"; sourceTree = "<group>"; };
+		32343A421EF081870005EC94 /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyMetadata.framework; path = "../ios-sdk-beta-25/SpotifyMetadata.framework"; sourceTree = "<group>"; };
+		32343A441EF0821D0005EC94 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		32343A481EFC3D780005EC94 /* Flock-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Flock-Bridging-Header.h"; path = "../Flock-Bridging-Header.h"; sourceTree = "<group>"; };
+		32343A4B1EFC930E0005EC94 /* Search_ResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search_ResultTableViewController.swift; sourceTree = "<group>"; };
+		32343A4D1EFC93CB0005EC94 /* Search_ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search_ResultTableViewCell.swift; sourceTree = "<group>"; };
+		32343A4F1EFC98C00005EC94 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		36492738F71E838CC165D882 /* Pods-FlockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlockUITests/Pods-FlockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38F5D0681203A630773A56DF /* Pods_FlockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1DC588648F6E6361B28E76 /* Pods-Flock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flock/Pods-Flock.debug.xcconfig"; sourceTree = "<group>"; };
+		83AA5D6B512C26F603361EC0 /* Pods-Flock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flock/Pods-Flock.release.xcconfig"; sourceTree = "<group>"; };
+		A65ED7CA7B4F58C054EDD527 /* Pods_Flock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0527F932438D46DA8585AF0 /* Pods-FlockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlockUITests/Pods-FlockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAE2ED1B20E7FAD33CF87367 /* Pods-FlockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlockTests/Pods-FlockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E61C168C8047F92284212260 /* Pods_FlockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32343A451EF0821D0005EC94 /* AVFoundation.framework in Frameworks */,
+				32343A431EF081870005EC94 /* SpotifyMetadata.framework in Frameworks */,
+				32343A411EF0817E0005EC94 /* SpotifyAuthentication.framework in Frameworks */,
+				32343A3F1EF081720005EC94 /* SpotifyAudioPlayback.framework in Frameworks */,
+				6E4147762325F416A79E0116 /* Pods_Flock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C529AAA0DA6BE8BA197BB9B3 /* Pods_FlockTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B102A42988ADEE4E1898950E /* Pods_FlockUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +117,8 @@
 				3226CCB11EF07C5B009D6F3B /* FlockTests */,
 				3226CCBC1EF07C5B009D6F3B /* FlockUITests */,
 				3226CC9B1EF07C5B009D6F3B /* Products */,
+				B5B089E936ABFAD0A2A6BC22 /* Pods */,
+				72D5F8D0E5DE9E98DE9B2026 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +138,14 @@
 				3226CC9D1EF07C5B009D6F3B /* AppDelegate.swift */,
 				3226CC9F1EF07C5B009D6F3B /* ViewController.swift */,
 				3226CCA11EF07C5B009D6F3B /* Main.storyboard */,
+				32343A4F1EFC98C00005EC94 /* PlayViewController.swift */,
+				32343A4D1EFC93CB0005EC94 /* Search_ResultTableViewCell.swift */,
+				32343A4B1EFC930E0005EC94 /* Search_ResultTableViewController.swift */,
 				3226CCA41EF07C5B009D6F3B /* Assets.xcassets */,
 				3226CCA61EF07C5B009D6F3B /* LaunchScreen.storyboard */,
+				32343A3C1EF07DE00005EC94 /* GoogleService-Info.plist */,
 				3226CCA91EF07C5B009D6F3B /* Info.plist */,
+				32343A481EFC3D780005EC94 /* Flock-Bridging-Header.h */,
 			);
 			path = Flock;
 			sourceTree = "<group>";
@@ -125,6 +168,33 @@
 			path = FlockUITests;
 			sourceTree = "<group>";
 		};
+		72D5F8D0E5DE9E98DE9B2026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32343A441EF0821D0005EC94 /* AVFoundation.framework */,
+				32343A421EF081870005EC94 /* SpotifyMetadata.framework */,
+				32343A401EF0817E0005EC94 /* SpotifyAuthentication.framework */,
+				32343A3E1EF081720005EC94 /* SpotifyAudioPlayback.framework */,
+				A65ED7CA7B4F58C054EDD527 /* Pods_Flock.framework */,
+				E61C168C8047F92284212260 /* Pods_FlockTests.framework */,
+				38F5D0681203A630773A56DF /* Pods_FlockUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B089E936ABFAD0A2A6BC22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B1DC588648F6E6361B28E76 /* Pods-Flock.debug.xcconfig */,
+				83AA5D6B512C26F603361EC0 /* Pods-Flock.release.xcconfig */,
+				DAE2ED1B20E7FAD33CF87367 /* Pods-FlockTests.debug.xcconfig */,
+				15C091B0962996E46358DEB6 /* Pods-FlockTests.release.xcconfig */,
+				36492738F71E838CC165D882 /* Pods-FlockUITests.debug.xcconfig */,
+				B0527F932438D46DA8585AF0 /* Pods-FlockUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3226CCC21EF07C5B009D6F3B /* Build configuration list for PBXNativeTarget "Flock" */;
 			buildPhases = (
+				A63418CD63B3AA27A0B1AE8D /* [CP] Check Pods Manifest.lock */,
 				3226CC961EF07C5B009D6F3B /* Sources */,
 				3226CC971EF07C5B009D6F3B /* Frameworks */,
 				3226CC981EF07C5B009D6F3B /* Resources */,
+				63FBCB30F7CAC2AE2B85E6FC /* [CP] Embed Pods Frameworks */,
+				826083EA52B50EEBFB97A476 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3226CCC51EF07C5B009D6F3B /* Build configuration list for PBXNativeTarget "FlockTests" */;
 			buildPhases = (
+				09287D541B36A79525E99537 /* [CP] Check Pods Manifest.lock */,
 				3226CCAA1EF07C5B009D6F3B /* Sources */,
 				3226CCAB1EF07C5B009D6F3B /* Frameworks */,
 				3226CCAC1EF07C5B009D6F3B /* Resources */,
+				56E764F4217737E47B34AFCB /* [CP] Embed Pods Frameworks */,
+				DF504D85DBF2E94D47A64402 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3226CCC81EF07C5B009D6F3B /* Build configuration list for PBXNativeTarget "FlockUITests" */;
 			buildPhases = (
+				0D3893605E4B6C7D15D65B71 /* [CP] Check Pods Manifest.lock */,
 				3226CCB51EF07C5B009D6F3B /* Sources */,
 				3226CCB61EF07C5B009D6F3B /* Frameworks */,
 				3226CCB71EF07C5B009D6F3B /* Resources */,
+				81FA08078B7976B83C882BE3 /* [CP] Embed Pods Frameworks */,
+				A36796B691C503EADEC39EE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +272,7 @@
 				TargetAttributes = {
 					3226CC991EF07C5B009D6F3B = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K6657636SA;
 						ProvisioningStyle = Automatic;
 					};
 					3226CCAD1EF07C5B009D6F3B = {
@@ -233,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3226CCA81EF07C5B009D6F3B /* LaunchScreen.storyboard in Resources */,
+				32343A3D1EF07DE00005EC94 /* GoogleService-Info.plist in Resources */,
 				3226CCA51EF07C5B009D6F3B /* Assets.xcassets in Resources */,
 				3226CCA31EF07C5B009D6F3B /* Main.storyboard in Resources */,
 			);
@@ -254,13 +335,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09287D541B36A79525E99537 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0D3893605E4B6C7D15D65B71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56E764F4217737E47B34AFCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlockTests/Pods-FlockTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63FBCB30F7CAC2AE2B85E6FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flock/Pods-Flock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81FA08078B7976B83C882BE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlockUITests/Pods-FlockUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826083EA52B50EEBFB97A476 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flock/Pods-Flock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A36796B691C503EADEC39EE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlockUITests/Pods-FlockUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A63418CD63B3AA27A0B1AE8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF504D85DBF2E94D47A64402 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlockTests/Pods-FlockTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3226CC961EF07C5B009D6F3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32343A4E1EFC93CB0005EC94 /* Search_ResultTableViewCell.swift in Sources */,
+				32343A501EFC98C00005EC94 /* PlayViewController.swift in Sources */,
 				3226CCA01EF07C5B009D6F3B /* ViewController.swift in Sources */,
 				3226CC9E1EF07C5B009D6F3B /* AppDelegate.swift in Sources */,
+				32343A4C1EFC930F0005EC94 /* Search_ResultTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,30 +634,61 @@
 		};
 		3226CCC31EF07C5B009D6F3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1DC588648F6E6361B28E76 /* Pods-Flock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K6657636SA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks\"",
+					/Library/Frameworks,
+				);
 				INFOPLIST_FILE = Flock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flock.Flock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flockmusic.Flock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/rishabhyadav/Programming/Flock/Flock-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3226CCC41EF07C5B009D6F3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83AA5D6B512C26F603361EC0 /* Pods-Flock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K6657636SA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks\"",
+					/Library/Frameworks,
+				);
 				INFOPLIST_FILE = Flock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flock.Flock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flockmusic.Flock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/rishabhyadav/Programming/Flock/Flock-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		3226CCC61EF07C5B009D6F3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE2ED1B20E7FAD33CF87367 /* Pods-FlockTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +703,7 @@
 		};
 		3226CCC71EF07C5B009D6F3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C091B0962996E46358DEB6 /* Pods-FlockTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +718,7 @@
 		};
 		3226CCC91EF07C5B009D6F3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36492738F71E838CC165D882 /* Pods-FlockUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FlockUITests/Info.plist;
@@ -477,6 +732,7 @@
 		};
 		3226CCCA1EF07C5B009D6F3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0527F932438D46DA8585AF0 /* Pods-FlockUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FlockUITests/Info.plist;
@@ -507,6 +763,7 @@
 				3226CCC41EF07C5B009D6F3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3226CCC51EF07C5B009D6F3B /* Build configuration list for PBXNativeTarget "FlockTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +772,7 @@
 				3226CCC71EF07C5B009D6F3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3226CCC81EF07C5B009D6F3B /* Build configuration list for PBXNativeTarget "FlockUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +781,7 @@
 				3226CCCA1EF07C5B009D6F3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
